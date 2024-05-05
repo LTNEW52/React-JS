@@ -1,0 +1,52 @@
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+  padding: 20px;
+  margin: 20px;
+  max-width: 250px;
+  text-align: center;
+  display: inline-block;
+}
+
+.card .card-img {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card .card-title {
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+  font-family: arial , sans-serif;
+}
+
+.card .card-desc {
+  color: hsl(0, 0%, 30%);
+  font-family: arial , sans-serif;
+}
+
+.student {
+  font-size: 2rem;
+  font-family: arial , sans-serif;
+  border: 2px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.student p {
+  margin: 0;
+}
+
+.welcome-prompt {
+  background-color: rgb(40, 214, 40);
+  color: white;
+  padding: 10px;
+}
+
+.login-prompt {
+  background-color: rgb(241, 79, 38);
+  color: white;
+  padding: 10px;
+}
